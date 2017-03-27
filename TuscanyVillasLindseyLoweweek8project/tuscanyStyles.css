@@ -1,0 +1,233 @@
+﻿body {
+}
+
+*{
+    font-family: proxima-nova, sans-serif;
+}
+
+#headertop{
+    background-size: cover;
+    background-position: center;
+    padding-top: 125px;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-left: 0px;
+    margin-right: 0px;
+    height: 350px;
+}
+#headerh1 {
+    font-size:100px;
+    text-align:center;
+}
+#headerh2 {
+    font-size:90px;
+    text-align:center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+#footer {
+     background-size: cover;
+    color:white;
+    background-color:dimgrey;
+    padding-top: 15px;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-left: 0px;
+    margin-right: 0px;
+    height: 150px;
+}
+
+
+/*GRID BOX STYLES AND SIZES*/
+
+.row.no-gutter {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+    .row.no-gutter > [class^="col-"],
+    .row.no-gutter > [class*=" col-"] {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+div .ninebox {
+    background-size: cover;
+    background-position: center;
+    padding-top: 125px;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-left: 0px;
+    margin-right: 0px;
+    height: 350px;
+}
+
+div.threebox {
+    background-size: cover;
+    background-position: center;
+    padding-top: 125px;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-left: 0px;
+    margin-right: 0px;
+    height: 350px;
+}
+
+div.threeboxwhite{
+    
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+    padding-top: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-left: 0px;
+    margin-right: 0px;
+    height: 350px;
+}
+
+
+/*GRID BKGD IMAGES*/
+
+#homeaway {
+    background-image: url('Images/santaannapool.jpg');
+    max-width: 100%;
+}
+
+#bluegreenmap {
+    background-image: url('Images/bluegreenmap.jpg');
+    max-width: 100%;
+}
+
+#weddings {
+    background-image: url('Images/toscanibarrelceiling.jpg');
+    max-width: 100%;
+}
+
+#friends {
+    background-image: url('Images/toscanioutback.jpg');
+    max-width: 100%;
+}
+
+#family {
+    background-image: url('Images/outsidepooldeck.jpg');
+    max-width: 100%;
+}
+
+#laPaola {
+    background-image: url('Images/daytimepooldeck.jpg');
+    max-width: 100%;
+}
+
+#laVilla {
+    background-image: url('Images/creambedroom.jpg');
+    max-width: 100%;
+}
+
+#villaDeiGigli {
+    background-image: url('Images/vannaoutsidetable.jpg');
+    max-width: 100%;
+}
+#netreviews {
+  max-width:100%;
+    background-size:100% 100%;
+}
+
+
+
+/*TEXT BOX STYLES*/
+
+.greytextbox {
+    display: block;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    background-color: dimgrey;
+    opacity: 0.8;
+    filter: alpha(opacity=60);
+}
+
+
+.greytextbox-text {
+    width: 60%;
+    margin: auto;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.whitetextbox {
+    display: block;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    color: dimgrey;
+    background-color: white;
+    opacity: 0.9;
+    filter: alpha(opacity=20);
+}
+
+.whitetextbox-text {
+    width: 60%;
+    margin: auto;
+    font-weight: bold;
+    color: dimgrey;
+    text-align: center;
+}
+
+.bkgdwhitetextbox {
+    background-color: white;
+    background-size:cover;
+    max-width:100%;
+    width: auto;
+   margin: auto;
+    font-weight: bold;
+    text-align: center;
+}
+
+.bkgdbluebox{
+     background-color: mediumaquamarine;
+    background-size:cover;
+    max-width:100%;
+    width: auto;
+   margin: auto;
+    font-weight: bold;
+    text-align: center;
+}
+#accoideas {
+    text-align: left;
+}
+
+.greytextbox-blueprice {
+    display: block;
+    margin: 20px;
+    padding: 10px;
+    text-align: left;
+    color: white;
+    background-color: dimgrey;
+    opacity: 0.8;
+    filter: alpha(opacity=60);
+}
+
+.bluepricebox {
+    display: block;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    background-color: mediumaquamarine;
+    opacity: 0.8;
+    filter: alpha(opacity=60);
+    width: 60%;
+    font-weight: bold;
+}
