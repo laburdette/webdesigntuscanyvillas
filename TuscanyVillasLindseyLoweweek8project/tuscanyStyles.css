@@ -2,8 +2,10 @@
 }
 
 *{
-    font-family: proxima-nova, sans-serif;
+    font-family: 'Julius Sans One', sans-serif;
 }
+
+a, a:hover, a:active, a:visited { color: white; }
 
 #headertop{
     background-size: cover;
@@ -13,18 +15,23 @@
     padding-right: 10%;
     margin-left: 0px;
     margin-right: 0px;
-    height: 350px;
+    height: 40px; 
+    width:100%;
+    top:0;
 }
 #headerh1 {
-    font-size:100px;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size:50px;
     text-align:center;
 }
 #headerh2 {
-    font-size:90px;
+    font-family: 'Advent Pro', sans-serif;
+    font-size:50px;
     text-align:center;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+   
 }
 .navbar .navbar-nav {
+    top:20px;
     display: inline-block;
     float: none;
     vertical-align: top;
@@ -69,6 +76,8 @@ div .ninebox {
     margin-left: 0px;
     margin-right: 0px;
     height: 350px;
+  
+
 }
 
 div.threebox {
@@ -80,6 +89,8 @@ div.threebox {
     margin-left: 0px;
     margin-right: 0px;
     height: 350px;
+   
+
 }
 
 div.threeboxwhite{
@@ -93,6 +104,7 @@ div.threeboxwhite{
     margin-left: 0px;
     margin-right: 0px;
     height: 350px;
+   
 }
 
 
@@ -137,9 +149,15 @@ div.threeboxwhite{
     background-image: url('Images/vannaoutsidetable.jpg');
     max-width: 100%;
 }
-#netreviews {
-  max-width:100%;
-    background-size:100% 100%;
+#netreviews { max-height: 90%;
+  max-width: 90%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border: 2px solid rgb(44,44,44);
 }
 
 
@@ -147,6 +165,7 @@ div.threeboxwhite{
 /*TEXT BOX STYLES*/
 
 .greytextbox {
+   
     display: block;
     margin: auto;
     padding: 10px;
@@ -159,14 +178,17 @@ div.threeboxwhite{
 
 
 .greytextbox-text {
+    font-family: 'Cinzel', serif;
     width: 60%;
     margin: auto;
     font-weight: bold;
     color: white;
+    font-size:25px;
     text-align: center;
 }
 
 .whitetextbox {
+    font-family: 'Advent Pro', sans-serif;
     display: block;
     margin: auto;
     padding: 10px;
@@ -175,14 +197,17 @@ div.threeboxwhite{
     background-color: white;
     opacity: 0.9;
     filter: alpha(opacity=20);
+    font-size:15px;
 }
 
 .whitetextbox-text {
     width: 60%;
     margin: auto;
-    font-weight: bold;
+    
     color: dimgrey;
     text-align: center;
+    font-size:15px;
+    
 }
 
 .bkgdwhitetextbox {
@@ -192,6 +217,7 @@ div.threeboxwhite{
     width: auto;
    margin: auto;
     font-weight: bold;
+    font-size:16px;
     text-align: center;
 }
 
